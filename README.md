@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/andrenevesgomes/">
-    <img src="https://raw.githubusercontent.com/andrenevesgomes/discord-user-pick/master/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/andrenevesgomes/discord-user-pick/blob/main/src/logo/bot.png" alt="Logo" width="180" height="180">
   </a>
 
   <h3 align="center">discord-user-pick</h3>
@@ -182,4 +182,4 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: https://raw.githubusercontent.com/andrenevesgomes/discord-user-pick/master/src/logo/bot.png
+[product-screenshot]: https://picsum.photos/900/500
