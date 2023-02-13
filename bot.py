@@ -7,7 +7,7 @@ from discord.ext import commands
 # from discord_slash import SlashCommand
 # from discord_slash.utils import manage_commands
 
-from bot_config import BOT_NAME, BOT_PREFIX, BOT_LANGUAGE, BOT_ENV_TOKEN
+from bot_config import BOT_NAME, BOT_ENV_TOKEN
 
 bot = interactions.Client(token=BOT_ENV_TOKEN)
 
