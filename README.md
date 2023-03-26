@@ -75,9 +75,9 @@ A discord bot which helps you to pick a guinea pig 😏
 
 </div>
 
-A discord bot that randomly picks member(s) from the voice channel you're in.
+Discord User Pick is a simple Discord bot that randomly picks a user from a given list of members. It's useful for games or contests where you need to select a winner among a group of participants.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">:arrow_up: back to top</a>)</p>
 
 
 
@@ -88,54 +88,49 @@ A discord bot that randomly picks member(s) from the voice channel you're in.
 * [interactions.py](https://interactionspy.readthedocs.io/en/latest/quickstart.html)
 * [VSCode](https://code.visualstudio.com/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">:arrow_up: back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+This bot requires [Python 3.5](https://www.python.org/downloads/) or higher and the following libraries:
+* discord.py
+
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
+1. Clone this repository or download the script.
+```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+2. Install the required libraries using pip:
+```sh
+   pip install discord.py
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Create a new application and bot on the [Discord Developer Portal](https://discord.com/developers/applications).
+4. Invite the bot to your Discord server by generating an invite link on the Developer Portal.
+5. Copy the bot token and replace the `DISCORD_TOKEN` variable in the `bot_config.env` with it.
+6. Customize the command prefix and voice channel name in the script if desired.
+7. Run the script:
+```sh
+   python bot.py
    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Join a voice channel in the Discord server.
+2. Type the command in a text channel where the bot is present:
+```sh
+   -pick @NameOfTheBot
+   ```
+3. The bot will select a random member from the voice channel you are in and display their name in the text channel (remeber to giver the bot permissions).
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">:arrow_up: back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
@@ -152,7 +147,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">:arrow_up: back to top</a>)</p>
 
 
 <!-- CONTACT -->
@@ -162,24 +157,25 @@ DM me - [@andreneves-gomes](https://www.linkedin.com/in/andreneves-gomes/)
 
 Project Link: [https://github.com/andrenevesgomes/discord-user-pick](https://github.com/andrenevesgomes/discord-user-pick)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">:arrow_up: back to top</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
+* [Python](https://www.python.org/about/)
+* [discord.py](https://discordpy.readthedocs.io/en/stable/#)
+* [Replit](https://replit.com/)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Creating a Bot](https://interactionspy.readthedocs.io/en/latest/quickstart.html#creating-a-bot)
 * [Img Shields](https://shields.io)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">:arrow_up: back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: https://picsum.photos/900/500
+[product-screenshot]: https://user-images.githubusercontent.com/48434290/227798712-9d224b8e-21fd-495b-ab8f-016016b8a5fb.png
