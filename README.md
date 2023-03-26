@@ -98,7 +98,7 @@ Discord User Pick is a simple Discord bot that randomly picks a user from a give
 This bot requires [Python 3.5](https://www.python.org/downloads/), or higher and the following libraries:
 * discord.py
 
-1. Install **Python 3.5 or higher**: If you haven't already installed Python, download it from the [official website] (https://www.python.org/downloads/) and follow the installation instructions.
+1. Install **Python 3.5 or higher**: If you haven't already installed Python, download it from the [official website](https://www.python.org/downloads/) and follow the installation instructions.
 
 2. Install **VSCode**: If you haven't already installed VSCode, download it from the [official website](https://code.visualstudio.com/) and install it.
 
