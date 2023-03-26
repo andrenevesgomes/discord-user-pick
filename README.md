@@ -31,8 +31,6 @@
   <p align="center">
 A discord bot which helps you to pick a guinea pig 😏
     <br />
-    <a href="https://github.com/andrenevesgomes/">Try It!</a>
-    ·
     <a href="https://github.com/andrenevesgomes/discord-user-pick/issues">Report Bug</a>
     ·
     <a href="https://github.com/andrenevesgomes/discord-user-pick/issues">Request Feature</a>
@@ -97,15 +95,21 @@ Discord User Pick is a simple Discord bot that randomly picks a user from a give
 
 ### Prerequisites
 
-This bot requires [Python 3.5](https://www.python.org/downloads/) or higher and the following libraries:
+This bot requires [Python 3.5](https://www.python.org/downloads/), or higher and the following libraries:
 * discord.py
+
+1. Install **Python 3.5 or higher**: If you haven't already installed Python, download it from the [official website] (https://www.python.org/downloads/) and follow the installation instructions.
+
+2. Install **VSCode**: If you haven't already installed VSCode, download it from the [official website](https://code.visualstudio.com/) and install it.
+
+3. Install **discord.py library**: we'll see how to do this in the <a href="#installation">Installation section</a>.
 
 
 ### Installation
 
 1. Clone this repository or download the script.
 ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/andrenevesgomes/discord-user-pick.git
    ```
 2. Install the required libraries using pip:
 ```sh
